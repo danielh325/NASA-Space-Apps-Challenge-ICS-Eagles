@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'SF Distant Galaxy';
+    src: local('SF Distant Galaxy'), url(fonts/SF\ Distant\ Galaxy.ttf), format('ttf');
+  }
+
+html,body { 
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/back.jpg');
+    background-size: cover;
+    backdrop-filter: brightness(50%);
+}
+
+canvas  {
+    display: block;
+}
+
+#canvas_container { 
+    width: 100%;
+    height: 100vh; /* Full height for the canvas */
+    overflow: hidden; /* Prevent scrolling within the canvas */
+}
+
+#new_section {
+    margin-top: 20px; /* Adds space above the new section */
+    padding: 10px;
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #ccc; /* Light gray border */
+    z-index: 5;
+    position: absolute;
+}
+
+h2 {
+    color: yellow;
+    font-size: 2em;
+}
